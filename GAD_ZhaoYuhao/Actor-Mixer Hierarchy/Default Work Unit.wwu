@@ -1,6 +1,465 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{428B674A-8BD0-435C-B77F-D3C4BC78D104}" SchemaVersion="123">
 	<AudioObjects>
-		<WorkUnit Name="Default Work Unit" ID="{428B674A-8BD0-435C-B77F-D3C4BC78D104}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{428B674A-8BD0-435C-B77F-D3C4BC78D104}" PersistMode="Standalone">
+			<ChildrenList>
+				<Sound Name="VO_Female_WwiseSpatialAudio_P1" ID="{FBF5D4AF-FBA1-412A-925E-21219CF110F9}" ShortID="137562951">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FD375D77-E2D2-4D9D-BF57-47E6AB2DFA71}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{254F338A-44B6-4493-B964-0F4F0112EAE3}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="VO_Female_WwiseSpatialAudio_P1" ID="{ADED91B7-12AC-4594-8980-9726D6C355F0}">
+							<Language>SFX</Language>
+							<AudioFile>VO_Female_WwiseSpatialAudio_P1.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="747967461"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="VO_Female_WwiseSpatialAudio_P1" ID="{ADED91B7-12AC-4594-8980-9726D6C355F0}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="VO_Female_WwiseSpatialAudio_P2" ID="{8B9D23B0-DA3D-480F-ACF5-E7B926A14EB1}" ShortID="551138233">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FD375D77-E2D2-4D9D-BF57-47E6AB2DFA71}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{254F338A-44B6-4493-B964-0F4F0112EAE3}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="VO_Female_WwiseSpatialAudio_P2" ID="{35FECB72-C5C1-4C51-BB00-96B997D34EAB}">
+							<Language>SFX</Language>
+							<AudioFile>VO_Female_WwiseSpatialAudio_P2.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="985061547"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="VO_Female_WwiseSpatialAudio_P2" ID="{35FECB72-C5C1-4C51-BB00-96B997D34EAB}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="VO_Female_WwiseSpatialAudio_P3" ID="{C9738544-8686-42DA-AEA4-BB12DF1813C5}" ShortID="901595110">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FD375D77-E2D2-4D9D-BF57-47E6AB2DFA71}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{254F338A-44B6-4493-B964-0F4F0112EAE3}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="VO_Female_WwiseSpatialAudio_P3" ID="{0E8BD521-9661-47C1-BC1F-456B7A9ADF0D}">
+							<Language>SFX</Language>
+							<AudioFile>VO_Female_WwiseSpatialAudio_P3.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="503420984"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="VO_Female_WwiseSpatialAudio_P3" ID="{0E8BD521-9661-47C1-BC1F-456B7A9ADF0D}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<BlendContainer Name="OBJ_Campfire" ID="{18D53EC3-F834-4D24-99C7-32D08F7A42FD}" ShortID="167350192">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FD375D77-E2D2-4D9D-BF57-47E6AB2DFA71}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{254F338A-44B6-4493-B964-0F4F0112EAE3}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<RandomSequenceContainer Name="OBJ_Campfire_Crack" ID="{53DAAC31-ABA3-4A98-87AE-62F27484C85E}" ShortID="336535634">
+							<PropertyList>
+								<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
+								<Property Name="PlayMechanismSpecialTransitionsType" Type="int16" Value="3"/>
+								<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="3">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{812A520D-0588-4733-AEF3-B0865EA6131D}"/>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+								<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FD375D77-E2D2-4D9D-BF57-47E6AB2DFA71}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{254F338A-44B6-4493-B964-0F4F0112EAE3}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="OBJ_Campfire_Crack_05" ID="{1E99EC44-E74E-49C8-B3FE-59E85F879546}" ShortID="301874042">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FD375D77-E2D2-4D9D-BF57-47E6AB2DFA71}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{254F338A-44B6-4493-B964-0F4F0112EAE3}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="OBJ_Campfire_Crack_05" ID="{C9F23A44-3023-4BCF-84C1-DA93F09C9FDF}">
+											<Language>SFX</Language>
+											<AudioFile>OBJ_Campfire_Crack_05.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="510254415"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="OBJ_Campfire_Crack_05" ID="{C9F23A44-3023-4BCF-84C1-DA93F09C9FDF}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="OBJ_Campfire_Crack_06" ID="{8B68EAD6-114A-4CB6-85B7-080793A40C9A}" ShortID="349287681">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FD375D77-E2D2-4D9D-BF57-47E6AB2DFA71}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{254F338A-44B6-4493-B964-0F4F0112EAE3}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="OBJ_Campfire_Crack_06" ID="{5DB6A13E-47E2-44F1-86C2-86F928E1A7F4}">
+											<Language>SFX</Language>
+											<AudioFile>OBJ_Campfire_Crack_06.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="908501703"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="OBJ_Campfire_Crack_06" ID="{5DB6A13E-47E2-44F1-86C2-86F928E1A7F4}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="OBJ_Campfire_Crack_02" ID="{5ECE5DE4-323E-4036-BB15-76316B9A1C18}" ShortID="474978589">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FD375D77-E2D2-4D9D-BF57-47E6AB2DFA71}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{254F338A-44B6-4493-B964-0F4F0112EAE3}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="OBJ_Campfire_Crack_02" ID="{A89C6276-32E1-4218-BEBF-BF0644194795}">
+											<Language>SFX</Language>
+											<AudioFile>OBJ_Campfire_Crack_02.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="50656669"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="OBJ_Campfire_Crack_02" ID="{A89C6276-32E1-4218-BEBF-BF0644194795}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="OBJ_Campfire_Crack_03" ID="{970CF9E2-2CE9-4192-B4CE-C7933CBC26BC}" ShortID="403278683">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FD375D77-E2D2-4D9D-BF57-47E6AB2DFA71}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{254F338A-44B6-4493-B964-0F4F0112EAE3}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="OBJ_Campfire_Crack_03" ID="{52AD99EB-9487-4748-AC37-F50D10841E72}">
+											<Language>SFX</Language>
+											<AudioFile>OBJ_Campfire_Crack_03.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="657673196"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="OBJ_Campfire_Crack_03" ID="{52AD99EB-9487-4748-AC37-F50D10841E72}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="OBJ_Campfire_Crack_04" ID="{6DD5827D-56AC-493B-BF45-725E0E343A0B}" ShortID="578094535">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FD375D77-E2D2-4D9D-BF57-47E6AB2DFA71}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{254F338A-44B6-4493-B964-0F4F0112EAE3}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="OBJ_Campfire_Crack_04" ID="{8651C807-D584-4AA8-84BF-B9F00ADCFFC0}">
+											<Language>SFX</Language>
+											<AudioFile>OBJ_Campfire_Crack_04.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="809529309"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="OBJ_Campfire_Crack_04" ID="{8651C807-D584-4AA8-84BF-B9F00ADCFFC0}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="OBJ_Campfire_Crack_01" ID="{969474B8-59F3-4F59-9D65-993088133024}" ShortID="646691098">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FD375D77-E2D2-4D9D-BF57-47E6AB2DFA71}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{254F338A-44B6-4493-B964-0F4F0112EAE3}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="OBJ_Campfire_Crack_01" ID="{E31546CE-F1BF-4F58-B16C-F8E3849E1DCB}">
+											<Language>SFX</Language>
+											<AudioFile>OBJ_Campfire_Crack_01.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="392650848"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="OBJ_Campfire_Crack_01" ID="{E31546CE-F1BF-4F58-B16C-F8E3849E1DCB}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="OBJ_Campfire_Crack_07" ID="{3DE2D724-3038-4408-A916-CAE4E86BBC67}" ShortID="394025059">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FD375D77-E2D2-4D9D-BF57-47E6AB2DFA71}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{254F338A-44B6-4493-B964-0F4F0112EAE3}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="OBJ_Campfire_Crack_07" ID="{655B764B-07B8-4217-BDA6-5EF70DD0990E}">
+											<Language>SFX</Language>
+											<AudioFile>OBJ_Campfire_Crack_07.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="787353294"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="OBJ_Campfire_Crack_07" ID="{655B764B-07B8-4217-BDA6-5EF70DD0990E}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
+						<RandomSequenceContainer Name="OBJ_Campfire_Sizzle" ID="{7C9A4759-93FC-46FC-AC61-410697F60673}" ShortID="418106670">
+							<PropertyList>
+								<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
+								<Property Name="PlayMechanismSpecialTransitionsType" Type="int16" Value="3"/>
+								<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="5">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{ABD0F39E-DDD1-4167-9C25-BBCF3EB6823F}"/>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+								<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FD375D77-E2D2-4D9D-BF57-47E6AB2DFA71}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{254F338A-44B6-4493-B964-0F4F0112EAE3}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="OBJ_Campfire_Sizzle_05" ID="{BF78F8ED-6BA1-4BB0-AC98-864A91D1B830}" ShortID="484597799">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FD375D77-E2D2-4D9D-BF57-47E6AB2DFA71}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{254F338A-44B6-4493-B964-0F4F0112EAE3}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="OBJ_Campfire_Sizzle_05" ID="{D1A952E4-220E-4CA0-A319-9F612C99DAFA}">
+											<Language>SFX</Language>
+											<AudioFile>OBJ_Campfire_Sizzle_05.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="1049803884"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="OBJ_Campfire_Sizzle_05" ID="{D1A952E4-220E-4CA0-A319-9F612C99DAFA}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="OBJ_Campfire_Sizzle_03" ID="{B07A1EA4-379B-4B6D-A643-B694F4C7C722}" ShortID="592581708">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FD375D77-E2D2-4D9D-BF57-47E6AB2DFA71}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{254F338A-44B6-4493-B964-0F4F0112EAE3}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="OBJ_Campfire_Sizzle_03" ID="{29E2FA1E-11C3-4421-A2C9-272E2D79553B}">
+											<Language>SFX</Language>
+											<AudioFile>OBJ_Campfire_Sizzle_03.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="377117780"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="OBJ_Campfire_Sizzle_03" ID="{29E2FA1E-11C3-4421-A2C9-272E2D79553B}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="OBJ_Campfire_Sizzle_04" ID="{E3DBAAFA-E05A-415E-8155-58BD6CCBC99A}" ShortID="643728327">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FD375D77-E2D2-4D9D-BF57-47E6AB2DFA71}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{254F338A-44B6-4493-B964-0F4F0112EAE3}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="OBJ_Campfire_Sizzle_04" ID="{E453E7F5-4F93-4FF5-AE41-3C88FC24A36E}">
+											<Language>SFX</Language>
+											<AudioFile>OBJ_Campfire_Sizzle_04.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="1042036141"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="OBJ_Campfire_Sizzle_04" ID="{E453E7F5-4F93-4FF5-AE41-3C88FC24A36E}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="OBJ_Campfire_Sizzle_02" ID="{DFAA5C34-F0E9-4EF8-AE06-861D91499153}" ShortID="355807210">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FD375D77-E2D2-4D9D-BF57-47E6AB2DFA71}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{254F338A-44B6-4493-B964-0F4F0112EAE3}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="OBJ_Campfire_Sizzle_02" ID="{43E76ED8-28F1-4308-8158-A0FCEADF3CE0}">
+											<Language>SFX</Language>
+											<AudioFile>OBJ_Campfire_Sizzle_02.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="1048554720"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="OBJ_Campfire_Sizzle_02" ID="{43E76ED8-28F1-4308-8158-A0FCEADF3CE0}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="OBJ_Campfire_Sizzle_06" ID="{BCFD3141-46FE-4289-8BB1-B10625472992}" ShortID="868250124">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FD375D77-E2D2-4D9D-BF57-47E6AB2DFA71}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{254F338A-44B6-4493-B964-0F4F0112EAE3}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="OBJ_Campfire_Sizzle_06" ID="{96DF1771-FE40-4132-9A42-A4494FDFC2B6}">
+											<Language>SFX</Language>
+											<AudioFile>OBJ_Campfire_Sizzle_06.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="610923998"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="OBJ_Campfire_Sizzle_06" ID="{96DF1771-FE40-4132-9A42-A4494FDFC2B6}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="OBJ_Campfire_Sizzle_01" ID="{94CC732A-35C1-406A-8C8B-3A6AFE0E3FC8}" ShortID="449872033">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FD375D77-E2D2-4D9D-BF57-47E6AB2DFA71}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{254F338A-44B6-4493-B964-0F4F0112EAE3}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="OBJ_Campfire_Sizzle_01" ID="{77D6CE35-4127-45C0-B9DD-320E49F075D0}">
+											<Language>SFX</Language>
+											<AudioFile>OBJ_Campfire_Sizzle_01.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="827998949"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="OBJ_Campfire_Sizzle_01" ID="{77D6CE35-4127-45C0-B9DD-320E49F075D0}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="OBJ_Campfire_Sizzle_07" ID="{4272C2AF-8E27-430C-8B9E-4450A37ADCB9}" ShortID="324048797">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FD375D77-E2D2-4D9D-BF57-47E6AB2DFA71}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{254F338A-44B6-4493-B964-0F4F0112EAE3}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="OBJ_Campfire_Sizzle_07" ID="{36297E52-870A-4171-B5BA-AFA4E984274D}">
+											<Language>SFX</Language>
+											<AudioFile>OBJ_Campfire_Sizzle_07.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="813876626"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="OBJ_Campfire_Sizzle_07" ID="{36297E52-870A-4171-B5BA-AFA4E984274D}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
+						<Sound Name="OBJ_Campfire_Burn_Loop" ID="{3CE63D2A-B27B-48A6-BDD7-BC55A24CA24D}" ShortID="372964036">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FD375D77-E2D2-4D9D-BF57-47E6AB2DFA71}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{254F338A-44B6-4493-B964-0F4F0112EAE3}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="OBJ_Campfire_Burn_Loop" ID="{ED48A629-1810-4B2C-8D22-3F6446E292F8}">
+									<Language>SFX</Language>
+									<AudioFile>OBJ_Campfire_Burn_Loop.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="278917062"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="OBJ_Campfire_Burn_Loop" ID="{ED48A629-1810-4B2C-8D22-3F6446E292F8}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</BlendContainer>
+			</ChildrenList>
+		</WorkUnit>
 	</AudioObjects>
 </WwiseDocument>
