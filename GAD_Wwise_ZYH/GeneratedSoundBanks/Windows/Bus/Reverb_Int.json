@@ -1,0 +1,29 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "154",
+  "SoundBanks": [
+   {
+    "Id": "3304247195",
+    "Type": "Bus",
+    "GUID": "{07E99C12-D9CB-46AB-A769-8D041043FDE8}",
+    "Language": "SFX",
+    "Hash": "{ADB1EC94-5963-44F8-3D15-EFE4626C646F}",
+    "ObjectPath": "Reverb_Int",
+    "ShortName": "Reverb_Int",
+    "Path": "Bus/Reverb_Int.bnk",
+    "AuxBusses": [
+     {
+      "Id": "3304247195",
+      "Name": "Reverb_Int",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Reverb\\Reverb_Int",
+      "GUID": "{07E99C12-D9CB-46AB-A769-8D041043FDE8}"
+     }
+    ]
+   }
+  ],
+  "FileHash": "{276F36B0-7E4F-0019-125A-D6B42EEDB9F7}"
+ }
+}
