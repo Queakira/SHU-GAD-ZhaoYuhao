@@ -1,6 +1,0 @@
-Event	ID	Name			Wwise Object Path	Notes
-	3974548175	Play_OBJ_Campfire			\Default Work Unit\Play_OBJ_Campfire	
-
-Effect plug-ins	ID	Name	Type				Notes
-	400317747	Hall_Large_TooBright	Wwise RoomVerb			
-
