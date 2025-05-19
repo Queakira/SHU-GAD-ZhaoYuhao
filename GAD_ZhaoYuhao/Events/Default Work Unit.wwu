@@ -8,7 +8,7 @@
 						<Action Name="" ID="{45B9463A-AF88-454A-BB43-D61B1FD67B67}" ShortID="138748149">
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="OBJ_Campfire" ID="{18D53EC3-F834-4D24-99C7-32D08F7A42FD}" WorkUnitID="{428B674A-8BD0-435C-B77F-D3C4BC78D104}"/>
+									<ObjectRef Name="OBJ_Campfire" ID="{18D53EC3-F834-4D24-99C7-32D08F7A42FD}" WorkUnitID="{ADFB048B-015F-41D6-A200-AB16183CE6B5}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
