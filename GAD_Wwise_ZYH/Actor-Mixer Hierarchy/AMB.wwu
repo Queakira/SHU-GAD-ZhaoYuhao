@@ -31,8 +31,8 @@
 															<SegmentShape>SCurve</SegmentShape>
 														</Point>
 														<Point>
-															<XPos>1604.27807</XPos>
-															<YPos>-8.96952</YPos>
+															<XPos>1500</XPos>
+															<YPos>-9</YPos>
 															<Flags>0</Flags>
 															<SegmentShape>Exp1</SegmentShape>
 														</Point>
